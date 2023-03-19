@@ -286,3 +286,6 @@ span{
 .page__text{
     text-align: justify;
 }
+.page__container p:not(:last-child){
+    margin-bottom: 15px;
+}
