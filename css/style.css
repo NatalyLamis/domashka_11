@@ -284,8 +284,9 @@ span{
     color: #000000;
 }
 .page__text{
-    text-align: justify;
+    text-align: left;
+    text-indent: 5%;
 }
-.page__container p:not(:last-child){
+.page__text:not(:last-child){
     margin-bottom: 15px;
 }
